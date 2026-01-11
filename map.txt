@@ -1,0 +1,20 @@
+ASTRA/
+│
+├── index.html          # Updated with data-i18n attributes for static text
+├── crew.html           # Updated with data-i18n attributes
+├── games.html          # Updated with data-i18n attributes
+├── login.html          # Updated with data-i18n attributes
+│
+├── css/
+│   └── styles.css      
+│
+├── js/
+│   ├── translations.js # [NEW] Contains dictionaries for EN, ES, FR, etc.
+│   ├── firebase.js     # Updated to translate auth error messages
+│   ├── app.js          # Updated to translate stress results/recommendations
+│   ├── crew.js         # Updated to translate alerts and status
+│   ├── games.js        # Updated to translate game instructions/feedback
+│   └── chatbot.js      # Updated to inject language context into AI prompt
+│
+└── assets/
+    └── logo.svg
